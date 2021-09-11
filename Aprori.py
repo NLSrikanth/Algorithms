@@ -89,7 +89,6 @@ def support_count(itemset, itemlist):
     
 def main(min_support, min_confidence):
     # data = pd.read_csv('Complete_File_Location')
-    data = pd.read_csv('/Users/srnallam/D/Personal/IIITH/Data Analytics I/Kaggle Datasets/GroceryStoreDataSet.csv')
     minimum_support_count = 2
     records = []
     for i in range(0, 20):
